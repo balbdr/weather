@@ -37,7 +37,7 @@ async function getWeatherData(cityValue){
         `आर्द्रता (Humidity): ${data.main.humidity}%`,
         `हावाको गति (Wind Speed): ${data.wind.speed}m/s`,
         `बायुको चाँप (Pressure): ${data.main.pressure}<br>(mb)hPa`
-           
+        `दृश्यता (Visibility): ${data.visibility/1000}Km`   
        ]
 
        weatherDataEle.querySelector(".temp").textContent = `${temprature}°C`
