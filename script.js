@@ -36,7 +36,7 @@ async function getWeatherData(cityValue){
        /* `Fells Like: ${data.main.fells_like}°C`,*/
         `आर्द्रता (Humidity): ${data.main.humidity}%`,
         `हावाको गति (Wind Speed): ${data.wind.speed}m/s`,
-        `बायुको चाँप (Pressure): ${data.main.pressure}<br>(mb)hPa`
+        `बायुको चाँप (Pressure): ${data.main.pressure}<br>hPa(mb)`,
         `दृश्यता (Visibility): ${data.visibility/1000}Km`   
        ]
 
