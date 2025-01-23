@@ -86,7 +86,7 @@ form input[type="submit"]:hover{
     font-weight: 800;
     margin-top: 10px;
     margin-left: 150px;
-    color: #d11515;
+    color: #d11563;
     width: 30%;
     
 }
@@ -96,8 +96,8 @@ form input[type="submit"]:hover{
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 150px;
-    color: #335ce0;
-   /* background-color: #47b1ee77;*/
+    color: #e03358;
+    background-color: #47ee8777;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
     width: 30%;
 }
