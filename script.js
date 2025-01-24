@@ -28,6 +28,7 @@ async function getWeatherData(cityValue){
 
         const data = await responsc.json()
         console.log(data);
+        const city = data.name
 
        const temprature = Math.floor(data.main.temp)
        const description = data.weather[0].description
@@ -39,7 +40,7 @@ async function getWeatherData(cityValue){
         `बायुको चाँप (Pressure): ${data.main.pressure}<br>hPa(mb)`,
         `दृश्यता (Visibility): ${data.visibility/1000}Km`   
        ]
-
+       weatherDataEle.querySelector(".city").textContent = `${city}`
        weatherDataEle.querySelector(".temp").textContent = `${temprature}°C`
        weatherDataEle.querySelector(".desc").textContent = `${description}`
 
