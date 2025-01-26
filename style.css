@@ -8,10 +8,10 @@
 body{
     background-color: #37f85777;
 }  
-weather,h6{
-    margin-top: 5px;
+weather,h5{
+ /*   margin-top: 5px;
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 5px;*/
     text-align: center;
 }    
   
