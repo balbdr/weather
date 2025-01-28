@@ -47,7 +47,7 @@ form{
 }
 form input[type="text"]{
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
     width: 70%;
     border: none;
     outline: none;
@@ -61,7 +61,7 @@ form input[type="submit"]{
     border: none;
     background-color: rgba(93, 35, 126, 0.897)
     color  #ce9f9f ;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 10px;
     height: 40px;
     width: 100px;
@@ -95,7 +95,7 @@ form input[type="submit"]:hover{
 .temp{
    /* background-color: #86c0e677;*/
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     margin-top: 10px;
     margin-left: 150px;
