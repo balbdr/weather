@@ -84,7 +84,7 @@ form input[type="submit"]:hover{
 }
 .city{
    /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);*/
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     margin-top: 10px;
     margin-left: 150px;
@@ -95,7 +95,7 @@ form input[type="submit"]:hover{
 .temp{
    /* background-color: #86c0e677;*/
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
     margin-top: 10px;
     margin-left: 150px;
@@ -104,7 +104,7 @@ form input[type="submit"]:hover{
     
 }
 .desc{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     margin-top: 10px;
     margin-bottom: 20px;
