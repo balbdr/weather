@@ -57,7 +57,7 @@ async function getWeatherData(cityValue){
     }catch(err){
         weatherDataEle.querySelector(".temp").textContent = ""
         imgIcon.innerHTML =""
-        weatherDataEle.querySelector(".desc").textContent =" नाम भेटिएन ! फेरि लेख्नुहोस् "
+        weatherDataEle.querySelector(".desc").textContent =" नाम भेटिएन ! अर्को नाम  लेख्नुहोस् "
 
     }
     
