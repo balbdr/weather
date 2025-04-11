@@ -5,6 +5,14 @@ const weatherDataEle = document.querySelector(".weather-data")
 const cityNameEle = document.querySelector("#city-name")
 const formEle = document.querySelector("form")
 const imgIcon =document.querySelector(".icon")
+const dateElement = document.querySelector(".date")
+const date = new Date()
+
+dateElement.textContent = date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+});
 
 formEle.addEventListener("submit" ,(e)=>{
     e.preventDefault()
