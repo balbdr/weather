@@ -135,6 +135,14 @@ form input[type="submit"]:hover{
     color: #910567;
 
 }
+.date{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    color: #e04646;
+}
 .p{
     /*display: block;*/
     
